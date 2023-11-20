@@ -10,5 +10,4 @@ public class UserServiceImpl {
 	@Autowired
 	private UserRepository userRepo;
 	
-	
 }
