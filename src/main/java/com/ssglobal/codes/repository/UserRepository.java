@@ -6,5 +6,6 @@ import com.ssglobal.codes.model.Users;
 
 public interface UserRepository extends MongoRepository<Users, String>{
 
-	Users findByEmailMobileNo(String email, String mobileNo);
+//	Users findByEmailMobileNo(String email, String mobileNo);
+//    List<Users> findAll();
 }

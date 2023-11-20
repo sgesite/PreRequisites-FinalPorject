@@ -5,8 +5,8 @@ import java.util.Optional;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.ssglobal.codes.model.NotificationUpdate;
+import com.ssglobal.codes.model.NotifStatusUpdate;
 
-public interface NotificationUpdateRepository extends MongoRepository<NotificationUpdate, String> {
-	Optional<NotificationUpdate> findById(String id);
+public interface NotificationUpdateRepository extends MongoRepository<NotifStatusUpdate, String> {
+	Optional<NotifStatusUpdate> findById(String id);
 }
